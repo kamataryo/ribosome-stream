@@ -6,7 +6,7 @@
   },
   "author": "kamataryo <mugil.cephalus@gmail.com>",
   "name": "ribosome-stream",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "bin": "dist/cli.js",
   "license": "MIT",
