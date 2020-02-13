@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.5"
+  },
+  "author": "kamataryo <mugil.cephalus@gmail.com>",
+  "name": "ribosome-stream",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  }
+}
