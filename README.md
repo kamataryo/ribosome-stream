@@ -10,7 +10,7 @@ RNA base sequence translation stream.
 $ cat /dev/urandom | base64 | tr -dc 'AUGC' | npx ribosome-stream
 ```
 
-### As a dep
+### As a dependency
 
 ```shell
 $ yarn add ribosome-stream
