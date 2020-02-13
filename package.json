@@ -13,5 +13,6 @@
   "private": false,
   "scripts": {
     "build": "tsc && chmod +x ./dist/cli.js"
-  }
+  },
+  "types": "dist/index.d.ts"
 }

@@ -4,12 +4,20 @@ RNA base sequence translation stream.
 
 ## Usage
 
+### CLI demo
+
 ```shell
 $ cat /dev/urandom | base64 | tr -dc 'AUGC' | npx ribosome-stream
+```
+
+### As a dep
+
+```shell
+$ yarn add ribosome-stream
 ```
 
 ```typescript
 import RibosomeStream from "ribosome-stream";
 
-stream.pipe(new RibosomeStream()).pipe(process.stdout);
+process.stdin.pipe(new RibosomeStream()).pipe(process.stdout);
 ```
